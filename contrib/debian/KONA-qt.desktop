@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Solaris
+Comment=Solaris P2P Cryptocurrency
+Comment[fr]=Solaris, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Solaris, eşten eşe kriptografik sanal para birimi
+Exec=KONA-qt %u
+Terminal=false
+Type=Application
+Icon=KONA128
+MimeType=x-scheme-handler/KONA;
+Categories=Office;Finance;
