@@ -2202,8 +2202,14 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         int64_t mNodeCoins = mnodeman.size() * 1000 * COIN;
 
         //if a mn count is inserted into the function we are looking for a specific result for a masternode count
-        if(nMasternodeCount)
-            mNodeCoins = nMasternodeCount * 1000 * COIN;
+       if (nMasternodeCount < 1){
+            if (IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT) && (nHeight > Params().Block_Enforce_Masternode()))
+                nMasternodeCount = mnodeman.stable_size();
+            else
+                nMasternodeCount = mnodeman.size();
+        }
+
+        int64_t mNodeCoins = nMasternodeCount * 1000 * COIN;
 
         if (fDebug)
             LogPrintf("GetMasternodePayment(): moneysupply=%s, nodecoins=%s \n", FormatMoney(nMoneySupply).c_str(),
