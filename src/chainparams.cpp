@@ -140,6 +140,10 @@ public:
 		vSeeds.push_back(CDNSSeedData("kona1.hopto.org", "kona1.hopto.org"));
 		vSeeds.push_back(CDNSSeedData("kona2.hopto.org", "kona2.hopto.org"));
 		vSeeds.push_back(CDNSSeedData("kona3.hopto.org", "kona3.hopto.org"));
+		vSeeds.push_back(CDNSSeedData("kona.blockxplorer.info", "kona.blockxplorer.info"));
+		vSeeds.push_back(CDNSSeedData("pool.corpopool.com", "pool.corpopool.com"));
+		vSeeds.push_back(CDNSSeedData("poolchik.cloud", "poolchik.cloud"));
+		
 
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 45);
