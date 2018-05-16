@@ -10,13 +10,13 @@ investors, and Hybrid-Masternodes, owning to KONA transactions are even more sec
 to the fact that KONA is worth investing as soon as possible. On distribution phase every sixty seconds, one coin is
 mined, half to miner, half to masternode owner, after block 75000, our developers reduced block reward at 50%, it
 will extend distribution time, and will raise the value of coins. 
-    In first phase our developers deal with testing technological innovations and designing a new energy
+      In first phase our developers deal with testing technological innovations and designing a new energy
 efficient electronic payment platform based on Internet-of-Things (IoT), and other, too mobile devices. The main
 feature of this new cryptocurrency is the tangle, a directed acyclic graph (DAG) for storing transactions. The tangle
 naturally succeeds the blockchain as its next evolutionary step, and offers features that are required to establish a
 machine-to-machine micropayment system. It will be the first ecosystem of this type in the world, whose coins were
 fair distributed to people, and they were not sold by a large corporation. 
-    At the end of the distribution phase, all of million coins generated on this phase will be replaced to coins
+       At the end of the distribution phase, all of million coins generated on this phase will be replaced to coins
 working on this new platform. It will be first of world not mineable energy saving, electronic payments system fairly
 distributed to many people.
   
