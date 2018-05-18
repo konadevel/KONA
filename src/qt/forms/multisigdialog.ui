@@ -23,7 +23,7 @@
    <item>
     <widget class="QTabWidget" name="multisigTabWidget">
      <property name="styleSheet">
-      <string notr="true">QScrollArea{border: 1px solid #FFB005;}
+      <string notr="true">QScrollArea{border: 1px solid #6D6D6D;}
 QFrame{background-color:#f2f0f0;}
 QLabel{background-color:#ffffff;}
 QFrame &gt; QLabel{background-color:#f2f0f0;}</string>
@@ -600,13 +600,13 @@ p, li { white-space: pre-wrap; }
      <widget class="QWidget" name="signMultisigTransaction">
       <property name="styleSheet">
        <string notr="true">txScrollArea:{
-	border: 1px solid #FFB005;
+	border: 1px solid #6D6D6D;
 }
 keyScrollArea:{
-	border: 1px solid #FFB005;
+	border: 1px solid #6D6D6D;
 }
 txScrollArea:{
-	border: 1px solid #FFB005;
+	border: 1px solid #6D6D6D;
 }</string>
       </property>
       <attribute name="title">
