@@ -50,15 +50,16 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(13513, uint256("0x00000000095036d79e2d862e66640b35ca723e1fd03094df3639b0acbac46b95"))
 	(18602, uint256("0x0000000028e5e592435e3ec098f7201adc2eb7412f9819ba2280b0e0edfee485"))
 	(41931, uint256("0x000000002eedeac34c57242217ddfb87c61070d56e4cc884fa28c0ccfc7d3422"))
+	(60868, uint256("0x000000003ed87cd9879b4a0ca330d24382394865f302260cbee3a073cb2c530e"))
 	;
 	
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1526647421, // * UNIX timestamp of last checkpoint block
-    50591,    // * total number of transactions between genesis and last checkpoint
+    1527875230, // * UNIX timestamp of last checkpoint block
+    72501,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    2500       // * estimated number of transactions per day after checkpoint
+    25000       // * estimated number of transactions per day after checkpoint
 };
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
@@ -115,8 +116,8 @@ public:
 		nBlockEnforceMasternodePay = 23000;
 		
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-        nZerocoinStartTime = 1527847200; 
-		nZerocoinStartHeight = 64800;
+        nZerocoinStartTime = 1559383200; 
+		nZerocoinStartHeight = 590400;
 		
 		const char* pszTimestamp = "Trump Declines to Add Sanctions Against Russians, Contradicting Haley - NY Times 2018-04-18";
 		
