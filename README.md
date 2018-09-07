@@ -1,6 +1,21 @@
 KONA
 website: https://konacoin.cloud
 
+addnodes:
+
+```addnode=173.212.229.232:60555
+addnode=195.181.211.166:60555
+addnode=207.148.14.115:60555
+addnode=212.237.35.164:60555
+addnode=23.236.190.140:60555
+addnode=45.32.159.5:60555
+addnode=54.36.172.184:60555
+addnode=68.144.16.6:60555
+addnode=77.55.218.241:60555
+addnode=80.211.105.162:60555
+addnode=80.240.18.79:60555
+addnode=95.179.131.246:60555```
+
  KONA is a completely new crypto currency project. Our developers wanted to create a new cryptocurrency ecosystem and 
  KONA  is the first phase! 
 
