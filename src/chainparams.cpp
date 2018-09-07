@@ -145,7 +145,11 @@ public:
 		vSeeds.push_back(CDNSSeedData("kona3.hopto.org", "kona3.hopto.org"));
 		vSeeds.push_back(CDNSSeedData("kona.blockxplorer.info", "kona.blockxplorer.info"));
 		vSeeds.push_back(CDNSSeedData("pool.corpopool.com", "pool.corpopool.com"));
-		vSeeds.push_back(CDNSSeedData("poolchik.cloud", "poolchik.cloud"));
+		vSeeds.push_back(CDNSSeedData("konacoin.cloud", "konacoin.cloud"));
+		vSeeds.push_back(CDNSSeedData("seed1.konacoin.cloud", "seed1.konacoin.cloud"));
+		vSeeds.push_back(CDNSSeedData("seed2.konacoin.cloud", "seed2.konacoin.cloud"));
+		vSeeds.push_back(CDNSSeedData("seed3.konacoin.cloud", "seed3.konacoin.cloud"));
+		vSeeds.push_back(CDNSSeedData("seed4.konacoin.cloud", "seed4.konacoin.cloud"));
 		
 
 		
