@@ -14,7 +14,8 @@ addnode=68.144.16.6:60555
 addnode=77.55.218.241:60555
 addnode=80.211.105.162:60555
 addnode=80.240.18.79:60555
-addnode=95.179.131.246:60555```
+addnode=95.179.131.246:60555 
+```
 
  KONA is a completely new crypto currency project. Our developers wanted to create a new cryptocurrency ecosystem and 
  KONA  is the first phase! 
